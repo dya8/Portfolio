@@ -1,0 +1,125 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .intro h3 span {
+            color: aliceblue;
+        }
+        .intro {
+            position: relative;
+            display: inline-block;
+        }
+        .typed-cursor {
+            font-size: 5px;
+            opacity: 1;
+          /*  -webkit-animation: blink 0.7s infinite;
+         /*   -moz-animation: blink 0.7s infinite;
+           /* animation: blink 0.7s infinite;*/
+            color:black;
+
+        }
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        @-webkit-keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        @-moz-keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+      
+       
+   </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="diya-high-resolution-logo-removebg-preview.png" width="100" >
+            <nav>
+                
+                <ul>
+                    <div class="bar" >
+                    <li><a href="./">Home</a></li>
+                    <li><a href="./#about">About Me</a></li>
+                    <li><a href="./project.html">Projects</a></li>
+                    </div>
+                </ul>
+
+            </nav>
+            <a href="./#contact" button class="contact-btn">Let's Talk</a></button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="one">
+                <div class="two">
+                    <div class="intro">
+                        <h2>Hey! I'm Diya</h2>
+                        <div class="lw-widget-in learnworlds-main-text learnworlds-element learnworlds-main-text-large none" style="font-size:18px;"data-element-id="typed2" data-node-type="typed" id="el_1655295162684_353"></div>
+                    </div>
+                    <div class="second">
+                        <a href="file.pdf" class="get-in-touch">Download Resume</a>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/diya-k-dileep" i class="fa-brands fa-linkedin"></a></i>
+                        <a href="https://github.com/dya8"i class="fa-brands fa-github"></a></i>
+                    </div>
+                </div>
+                </div>
+                <div class="profile-picture">
+                    <img src="mehighlight.png" alt="Jenna Ortega">
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="essence">
+              <p>  I'm a currently pursuing Computer Science grad with a passion for coding and a knack
+                for solving complex problems.
+                </p><p> I thrive on pushing boundaries and exploring cutting-edge technologies.</p>
+              <p>  My journey in tech isn't just about learning—it's about actively contributing and collaborating with like-minded innovators.
+                </p><p>Together, let's dive deep into the world of technology, embrace challenges, and create impactful solutions that shape the future!
+            </p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Connect with me</p>
+            <div class="social-link">
+                <a href="https://www.linkedin.com/in/diya-k-dileep" i class="fa-brands fa-linkedin" ></a></i>
+                <a href="diyadileep0806@yahoo.com" class="fa-regular fa-envelope"></a></i>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var options = {
+                strings: [
+                    "Computer Science Student",
+                    "Web Developer",
+                    "Apsiring Software Engineer"
+                ],
+                typeSpeed: 50,
+                backSpeed: 25,
+                loop: true
+            };
+            var typed = new Typed("#el_1655295162684_353", options);
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

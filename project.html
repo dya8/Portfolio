@@ -1,0 +1,403 @@
+<!----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Project</title>
+</head>
+
+<body>
+    <style>
+     .Wproject h1
+     {
+       
+    text-align: center;
+     }
+     .Wproject
+     {
+      padding-top: 20px;
+     }
+     
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    opacity: 0; /* Start hidden */
+    animation: fadeIn 0.5s forwards; /* Fade in container */
+}
+@media (max-width:768px) 
+{
+    .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    opacity: 0; /* Start hidden */
+    animation: fadeIn 0.5s forwards; 
+    flex-direction: column;/* Fade in container */
+}
+}
+@media(max-width:576px)
+{
+
+    .card-container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    opacity: 0; /* Start hidden */
+    animation: fadeIn 0.5s forwards; 
+    flex-direction: column;/* Fade in container */
+    
+}
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+
+.card {
+    background-color:rgb(54, 142, 237,0.9);
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px hsla(0, 90%, 4%, 0.898);
+    transition: transform 0.2s;
+   /* display: flex;*/
+    width: 600px;
+    
+    opacity: 0; /* Start hidden */
+    transform: translateX(-100%); /* Start off-screen */
+    animation: slideIn 1.4s forwards; /* Slide in animation */
+}
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.card:nth-child(1) {
+    animation-delay: 0.5s;
+}
+
+.card:nth-child(2) {
+    animation-delay: 1.5s;
+}
+
+.card:nth-child(3) {
+    animation-delay: 2.0s;
+}
+
+/* Add more nth-child rules as needed */
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 2px 2px hwb(0 95% 5% / 0.947);
+    
+
+}
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-img {
+    width: 100%;
+    height:100;
+    object-fit: cover;
+}
+
+
+
+.card-content {
+    padding: 20px;
+    display: flex;    /* using flex here it aligns all the content to center */
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-content h3 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+}
+
+.card-content p {
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.card-btn {
+    background-color: #093adc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    text-align: center;
+}
+
+.card-btn:hover {
+    background-color: rgba(29, 215, 141);
+}
+.card img{
+    max-height:50vh;
+    height:100%;
+}
+    </style>
+    <header>
+        <div class="container">
+            <img src="diya-high-resolution-logo-removebg-preview.png" width="100" >
+          
+            <nav>
+              
+                <ul> 
+                    <div class="bar">
+                    <li><a href="./">Home</a></li>
+                    <li><a href="./">About Me</a></li>
+                    <li><a href="./project.html">Projects</a></li>
+                    </div>
+                </ul>
+            </nav>
+            <button class="contact-btn">Let's Talk</button>
+        </div>
+    </header>
+  <main>
+        <div class="Wproject">
+        <h1>Web Development</h1>
+    </div>
+    <div class="card-container">
+      <div class="card">
+          <img src="edge.jpg" alt="Podcast App" class="card-img">
+          <div class="card-content">
+              <h3>Edge3.0+</h3>
+              <p>Experience the Edge+3.0 website, your central hub for registering and managing activities for the Edge+3.0 event. Effortlessly sign up for workshops and coding challenges, all in one place</p>
+              
+
+              <a href="https://acmedge.vercel.app/" button class="card-btn" >View Website</a></button>
+          </div>
+      </div>
+      <div class="card">
+        <img src="/download.jpeg" alt="Podcast App" class="card-img">
+        <div class="card-content">
+            <h3>WeatherApp</h3>
+            <p>Discover the WeatherApp, where you can get up-to-date weather forecasts for any city with just a few clicks. Plan your day or your travels with accurate and detailed weather information.</p>
+            <a href="https://weather-app-five-red-83.vercel.app/" button class="card-btn">View Website</a></button>
+        </div>
+    </div>
+    <div class="card">
+      <img src="/starwars.png" alt="Podcast App" class="card-img">
+      <div class="card-content">
+          <h3>StarWars</h3>
+          <p>Embark on a journey through the StarWars site and explore detailed information about planets and residents from the Star Wars universe. Immerse yourself in the lore and discover your favorite celestial bodies</p>
+          <a href="https://star-wars-new.vercel.app/" button class="card-btn">View Website</a></button>
+      </div>
+  </div>
+    
+  <!-- Repeat for other cards -->
+<!----  
+</div>
+</main>
+</body>
+</html>--><!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <title>Project</title>
+    </head>
+    
+    <body>
+        <style>
+            .Wproject h1 {
+                text-align: center;
+            }
+            .Wproject {
+                padding-top: 20px;
+            }
+            
+            .card-container {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                padding: 20px;
+                opacity: 0; /* Start hidden */
+                animation: fadeIn 0.5s forwards; /* Fade in container */
+                justify-content: center; /* Center cards on all screen sizes */
+            }
+            
+            @keyframes fadeIn {
+                to {
+                    opacity: 1;
+                }
+            }
+    
+            .card {
+                background-color: rgba(54, 142, 237, 0.9);
+                color: white;
+                border-radius: 10px;
+                overflow: hidden;
+                box-shadow: 0 4px 8px hsla(0, 90%, 4%, 0.898);
+                transition: transform 0.2s;
+                width: 100%; /* Use full width on mobile */
+                max-width: 600px; /* Limit maximum width on larger screens */
+                opacity: 0; /* Start hidden */
+                transform: translateX(-100%); /* Start off-screen */
+                animation: slideIn 1.4s forwards; /* Slide in animation */
+            }
+    
+            @keyframes slideIn {
+                to {
+                    opacity: 1;
+                    transform: translateX(0);
+                }
+            }
+    
+            .card:nth-child(1) {
+                animation-delay: 0.5s;
+            }
+    
+            .card:nth-child(2) {
+                animation-delay: 1.5s;
+            }
+    
+            .card:nth-child(3) {
+                animation-delay: 2.0s;
+            }
+    
+            .card:hover {
+                transform: translateY(-10px);
+                box-shadow: 0 2px 2px hwb(0 95% 5% / 0.947);
+            }
+    
+            .card-img {
+                width: 100%;
+                height:200;
+                object-fit: cover;
+            }
+    
+            .card-content {
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+    
+            .card-content h3 {
+                margin: 0 0 10px;
+                font-size: 1.2em;
+            }
+    
+            .card-content p {
+                font-size: 0.9em;
+                line-height: 1.5;
+                text-align: center;
+            }
+    
+            .card-btn {
+                background-color: #093adc;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.2s;
+                text-align: center;
+                text-decoration: none; /* Ensure the button looks consistent */
+            }
+    
+            .card-btn:hover {
+                background-color: rgba(29, 215, 141);
+            }
+    
+            @media (max-width: 768px) {
+                .card-container {
+                    gap: 20px;
+                    flex-direction: column;
+                }
+            }
+    
+            @media (max-width: 576px) {
+                .card-container {
+                    gap: 10px;
+                    padding: 10px;
+                }
+    
+                .card-content h3 {
+                    font-size: 1.1em;
+                }
+    
+                .card-content p {
+                    font-size: 0.85em;
+                }
+    
+                .card-btn {
+                    padding: 8px 16px;
+                }
+            }
+        </style>
+    
+        <header>
+            <div class="container">
+                <img src="diya-high-resolution-logo-removebg-preview.png" width="100" alt="Logo">
+                <nav>
+                    <ul>
+                        <div class="bar">
+                            <li><a href="./">Home</a></li>
+                            <li><a href="./">About Me</a></li>
+                            <li><a href="./project.html">Projects</a></li>
+                        </div>
+                    </ul>
+                </nav>
+                <button class="contact-btn">Let's Talk</button>
+            </div>
+        </header>
+      
+        <main>
+            <div class="Wproject">
+                <h1>Web Development</h1>
+            </div>
+            <div class="card-container">
+                <div class="card">
+                    <img src="edge.jpg" alt="Edge3.0+" class="card-img">
+                    <div class="card-content">
+                        <h3>Edge3.0+</h3>
+                        <p>Experience the Edge+3.0 website, your central hub for registering and managing activities for the Edge+3.0 event. Effortlessly sign up for workshops and coding challenges, all in one place</p>
+                        <a href="https://acmedge.vercel.app/" class="card-btn">View Website</a>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <img src="/download.jpeg" alt="WeatherApp" class="card-img">
+                    <div class="card-content">
+                        <h3>WeatherApp</h3>
+                        <p>Discover the WeatherApp, where you can get up-to-date weather forecasts for any city with just a few clicks. Plan your day or your travels with accurate and detailed weather information.</p>
+                        <a href="https://weather-app-five-red-83.vercel.app/" class="card-btn">View Website</a>
+                    </div>
+                </div>
+    
+                <div class="card">
+                    <img src="/starwars.png" alt="StarWars" class="card-img">
+                    <div class="card-content">
+                        <h3>StarWars</h3>
+                        <p>Embark on a journey through the StarWars site and explore detailed information about planets and residents from the Star Wars universe. Immerse yourself in the lore and discover your favorite celestial bodies</p>
+                        <a href="https://star-wars-new.vercel.app/" class="card-btn">View Website</a>
+                    </div>
+                </div>
+                <!-- Repeat for other cards -->
+            </div>
+        </main>
+    </body>
+    </html>
+    
