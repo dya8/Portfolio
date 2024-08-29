@@ -262,8 +262,8 @@ main {
 @media(max-width:579px) 
 {
     .social-links{
-    gap:10px;
-    margin-top: 10px;
+    gap:4px;
+    margin-top: 20px;
     }
 }
 .social-link .fa-brands{
