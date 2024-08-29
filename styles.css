@@ -263,6 +263,7 @@ main {
 {
     .social-links{
     gap:10px;
+    margin-top: 10px;
     }
 }
 .social-link .fa-brands{
@@ -471,6 +472,7 @@ section p{
         flex-direction: column;
         align-items: center;
         margin-top:-150px;
+        width:70%;
     }
     #about
     {
