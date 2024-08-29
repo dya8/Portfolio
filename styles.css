@@ -253,39 +253,28 @@ main {
 }
 
 .social-links {
+  
     display: flex;
-    gap: 10px;
-    margin-top: 20px;
-}
-.social-links .fa-brands{
-    font-size: 25px;
-    transition: color 0.3s, transform 0.3s; /* Transition for smooth hover effect */
-    color: hwb(352 88% 6%); /* Default color */
-}
-
-.social-links .fa-brands:hover {
-    color: hwb(228 30% 32%); /* Change to your desired hover color */
-    transform: scale(1.8); /* Scale up the icon on hover */
-}
-.social-link
-{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-   
+    gap:5px;
+    margin-top: 30px;
     
 }
-
+@media(max-width:579px) 
+{
+    .social-links{
+    gap:10px;
+    }
+}
 .social-link .fa-brands{
     font-size: 25px;
     transition: color 0.3s, transform 0.3s; /* Transition for smooth hover effect */
     color: hwb(352 88% 6%); /* Default color */
-   margin-right: 20px;
+
 }
 
-.social-link .fa-brands:hover {
+.social-link  .fa-brands:hover {
     color: hwb(228 30% 32%); /* Change to your desired hover color */
-    transform: scale(1.8); /* Scale up the icon on hover */
+   transform: scale(1.8); /* Scale up the icon on hover */
 }
 .social-link .fa-regular{
     font-size: 25px;
@@ -299,19 +288,61 @@ main {
     transform: scale(1.8); /* Scale up the icon on hover */
 }
 
+.social-link
+{
+   display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    
 
-.profile-picture img {
-    width: 300px;
-    border-radius: 60%;
-    height: 350px;
     
 }
-.profile-picture
+
+.social-links .fa-brands{
+    font-size: 25px;
+    transition: color 0.3s, transform 0.3s; /* Transition for smooth hover effect */
+    color: hwb(352 88% 6%); /* Default color */
+   margin-right: 20px;
+}
+
+.social-links .fa-brands:hover {
+    color: hwb(228 30% 32%); /* Change to your desired hover color */
+    transform: scale(1.8); /* Scale up the icon on hover */
+}
+.social-links .fa-regular {
+    font-size: 25px;
+    transition: color 0.3s, transform 0.3s; /* Transition for smooth hover effect */
+    color: hwb(352 88% 6%); /* Default color */
+   
+}
+
+.social-links .fa-regular:hover {
+    color: hwb(228 30% 32%); /* Change to your desired hover color */
+    transform: scale(1.8); /* Scale up the icon on hover */
+}
+
+
+.profile-picture img {
+    width: 180px;
+    border-radius: 50%;
+    height: 198px;
+   
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+    box-shadow: 2px 2px 5px 0px #e2d6d6;
+
+    
+}
+.profile-picture 
 {
     margin-top: -70px;
     margin-right: -60px;
+
+     
    
 }
+
 @media (max-width:576px) 
 {
     .profile-picture
@@ -320,12 +351,13 @@ main {
     margin-right: -5px;
    
 }
+
 }
 @media (max-width:768px) 
 {
     .profile-picture
 {
-    margin-top: -20px;
+    margin-top: 18px;
     margin-right: -5px;
    
 }
@@ -391,7 +423,9 @@ section p{
 #home .two
 {
   /*  display: flex; /* Use flexbox for the content */
-    width: 100%;
+   width: 100%;
+
+
     
 }
 #home .one
@@ -400,6 +434,7 @@ section p{
     justify-content: space-between; /* Distribute space evenly */
     align-items: flex-start; /* Align items to the start */   
    margin-top: -140px;
+   width:40%;
 }
 
 
